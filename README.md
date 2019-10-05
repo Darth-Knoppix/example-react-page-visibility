@@ -2,7 +2,8 @@
 
 # Example of Page Visibility API with React
 
-[Demo](http://example-react-page-visibility.sethcorker.com/)
+- [Demo](http://example-react-page-visibility.sethcorker.com/)
+- My [article describing the Page Visibility API in a bit more detail](https://blog.sethcorker.com/harnessing-the-page-visibility-api-with-react/)
 
 ## What is this?
 An example of the Page Visibility API being used in React with a custom hook.
