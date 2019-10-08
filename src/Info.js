@@ -16,15 +16,6 @@ export default function Info() {
           The page title in the tab changes to "inactive" when you switch tabs.
         </li>
       </ol>
-
-      <h4>More resources</h4>
-      <ul>
-        <li>
-          <a href="https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API">
-            Check out MDN for more details
-          </a>
-        </li>
-      </ul>
     </header>
   );
 }

@@ -6,6 +6,8 @@ import {
 } from "./utils/timerHooks";
 import Info from "./Info";
 import Citations from "./Citations";
+import Nav from "./Nav";
+import Resources from "./Resources";
 import "./App.css";
 
 function App() {
@@ -24,14 +26,26 @@ function App() {
 
   return (
     <React.Fragment>
-      <Info />
-      <h2 className="title">You've looking at this page for</h2>
-      <p>
-        about <b>{timerVal}</b> seconds non-stop
-        <br />
-        and <b>{totalTimeVal}</b> seconds in total
-      </p>
-      <Citations />
+      <Nav />
+      <div className="row">
+        <div className="lg-5 col">
+          <div className="paper">
+            <Info />
+          </div>
+          <Resources />
+          <Citations />
+        </div>
+        <div className="lg-7 col">
+          <div className="paper">
+            <h2 className="title">You've looking at this page for</h2>
+            <p>
+              about <b>{timerVal}</b> seconds non-stop
+              <br />
+              and <b>{totalTimeVal}</b> seconds in total
+            </p>
+          </div>
+        </div>
+      </div>
     </React.Fragment>
   );
 }
