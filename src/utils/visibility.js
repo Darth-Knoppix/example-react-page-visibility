@@ -32,10 +32,10 @@ export function usePageVisibility() {
   React.useEffect(() => {
     const visibilityChange = getBrowserVisibilityProp();
 
-    window.addEventListener(visibilityChange, onVisibilityChange, false);
+    document.addEventListener(visibilityChange, onVisibilityChange, false);
 
     return () => {
-      window.removeEventListener(visibilityChange, onVisibilityChange);
+      document.removeEventListener(visibilityChange, onVisibilityChange);
     };
   });
 
