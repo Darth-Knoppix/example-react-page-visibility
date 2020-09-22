@@ -1,4 +1,4 @@
-<img src="https://blog.sethcorker.com/content/images/size/w2000/2019/10/Medium.png" alt="A title card with the text: Page Visibility API with React"/>
+<img src="https://blog.sethcorker.com/static/c34da25b7322984ba6cc69bc8b46ea2a/9dbcf/Medium.png" alt="A title card with the text: Page Visibility API with React"/>
 
 # Example of Page Visibility API with React
 
